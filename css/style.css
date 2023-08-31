@@ -46,4 +46,10 @@ footer {
 img {
   display: block;
   margin:  auto;
+  
+}
+
+footer section img {
+  height: 200px;
+  width: 200px;
 }

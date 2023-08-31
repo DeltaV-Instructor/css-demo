@@ -6,9 +6,16 @@ console.log('app js is running!');
 
 function getUserName(){
   let userName = prompt('What is your name?');
+  console.log(userName);
+  
+  if(userName === '' || userName === null){
+    userName = prompt('What is your name?');
+  } 
+
   console.log('did we get the user name?', userName);
   return document.write(userName);
-}
+
+}//closes getUserName function
 
 
 
